@@ -3,6 +3,12 @@ package Oct31;
 public class Main {
 
     public static void main(String[] args) {
+
+        //Binary Strings
+        System.out.println("Binary Strings");
+        binaryStrings(3, "");
+
+
         System.out.println(occurance("DataStructuresRecursion", 't'));
         System.out.println(occurance("DataStructuresRecursion", 'R'));
     }
